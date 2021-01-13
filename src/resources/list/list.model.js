@@ -9,6 +9,11 @@ const listSchema = new mongoose.Schema(
       maxlength: 50
     },
     description: String,
+    phone: String,
+    image: String,
+    price: Number,
+    lat: Number,
+    long: Number,
     createdBy: {
       type: mongoose.SchemaTypes.ObjectId,
       ref: 'user',
