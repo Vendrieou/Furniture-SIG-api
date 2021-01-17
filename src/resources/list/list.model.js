@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { Category as CategorySchema} from '../category/category.model'
 
 const listSchema = new mongoose.Schema(
   {
@@ -14,12 +15,7 @@ const listSchema = new mongoose.Schema(
     price: Number,
     lat: Number,
     long: Number,
-    category: {
-      type: String,
-      enum: ['chair', 'table', 'accessories', 'tools'],
-      default: '',
-      required: true
-    },
+    category: CategorySchema,
     createdBy: {
       type: mongoose.SchemaTypes.ObjectId,
       ref: 'user',
