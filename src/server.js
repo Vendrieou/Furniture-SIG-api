@@ -8,6 +8,7 @@ import { connect } from './utils/db'
 import userRouter from './resources/user/user.router'
 import itemRouter from './resources/item/item.router'
 import listRouter from './resources/list/list.router'
+import categoryRouter from './resources/category/category.router'
 import { cloudinary } from './utils/cloudinary';
 
 export const app = express()
@@ -26,6 +27,7 @@ app.use('/api', protect)
 app.use('/api/user', userRouter)
 app.use('/api/item', itemRouter)
 app.use('/api/list', listRouter)
+app.use('/api/category', categoryRouter)
 
 app.get('/api/images', async (req, res) => {
   const { resources } = await cloudinary.search.expression('folder:dev_setups')

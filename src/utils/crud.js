@@ -1,5 +1,3 @@
-import { getValueForNextSequence } from './sequence';
-
 export const getOne = model => async (req, res) => {
   try {
     const doc = await model
@@ -33,8 +31,7 @@ export const getMany = model => async (req, res) => {
 }
 
 export const createOne = model => async (req, res) => {
-  const createdBy = getValueForNextSequence(model, req.user._id)
-  // const createdBy = req.user._id
+  const createdBy = req.user._id
   try {
     const doc = await model.create({ ...req.body, createdBy })
     res.status(201).json({ data: doc })

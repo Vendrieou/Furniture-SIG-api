@@ -9,12 +9,11 @@ const userSchema = new mongoose.Schema(
       unique: true,
       trim: true
     },
-
     password: {
       type: String,
       required: true
     },
-    category: {
+    status: {
       type: String,
       enum: ['admin', 'user'],
       default: 'user',
