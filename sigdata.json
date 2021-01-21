@@ -1,0 +1,104 @@
+{
+    "SigData": [
+        {
+            "name": "Magnum Chair",
+            "description": "JL. A.R. HAKIM 116 117 Depan Wisma Bakti & BRI AGRO Sukaramai I, Tegal Sari III, Kec. Medan Area, Kota Medan, Sumatera Utara 20216",
+            "companyName": "Medan Mebel",
+            "phone": "+6282163806000",
+            "image": "https://cdn.pixabay.com/photo/2017/06/29/07/32/chair-2453307__340.jpg",
+            "price": 125000,
+            "lat": 3.577272573114843,
+            "long": 98.70335978454648
+        },
+        {
+            "name": "Small Chair",
+            "description": "Jl. Arief Rahman Hakim No.132, Sukaramai I, Kec. Medan Area, Kota Medan, Sumatera Utara 20216",
+            "companyName": "MJB Mebel",
+            "phone": "+6285207291414",
+            "image": "https://i.pinimg.com/236x/50/0d/25/500d25f7db13838c18b167a69c924d6f--modern-dining-chairs-charcoal.jpg",
+            "price": 250000,
+            "lat": 3.577101246197635,
+            "long": 98.70318812317166
+        },
+        {
+            "name": "Bamboo Chair",
+            "description": "Jl. Arief Rahman Hakim No.52, Sukaramai I, Kec. Medan Area, Kota Medan, Sumatera Utara 20216",
+            "companyName": "Maju Jaya Furniture",
+            "phone": "+6285155338819",
+            "image": "https://cdn.pixabay.com/photo/2019/07/07/06/31/wooden-rocking-chair-4321820__340.png",
+            "price": 250000,
+            "lat": 3.580194907711207,
+            "long": 98.70392431337093
+        },
+        {
+            "name": "Wall Cabinet Wardrobe",
+            "description": "Jl. Brigjend Katamso No.777, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158",
+            "companyName": "Katamso Perabot",
+            "phone": "+6285155338819",
+            "image": "https://cdn.pixabay.com/photo/2014/09/14/00/06/wall-cabinet-444638__340.jpg",
+            "price": 560000,
+            "lat": 3.549757407280868,
+            "long": 98.68870369192048
+        },
+        {
+            "name": "Mini Plant",
+            "description": "Jl. Brigjend Katamso No.777, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158",
+            "companyName": "Mela Mebel",
+            "phone": "+6285155338819",
+            "image": "https://cdn.pixabay.com/photo/2019/04/23/08/58/plant-4148876__340.jpg",
+            "price": 300000,
+            "lat": 3.551824558192404,
+            "long": 98.68873313055023
+        },
+        {
+            "name": "Chair Living Room",
+            "description": "Jl. Brigjend Katamso No.777, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158",
+            "companyName": "Katamso Perabot",
+            "phone": "+6285155338819",
+            "image": "https://cdn.pixabay.com/photo/2016/06/28/15/25/chair-1484853__340.jpg",
+            "price": 240000,
+            "lat": 3.549695928036848,
+            "long": 98.68874482715354
+        },
+        {
+            "name": "Antique Table",
+            "description": "Jl. Brigjend Katamso No.729, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158",
+            "companyName": "Aneka Indah Perabot",
+            "phone": "+6282367707822",
+            "image": "https://cdn.pixabay.com/photo/2015/09/27/17/51/antique-961102__340.png",
+            "price": 450000,
+            "lat": 3.5516341196654877,
+            "long": 98.68903450569611 
+        },
+        {
+            "name": "Sofa Couch",
+            "description": "Jl. Brigjend Katamso No.778 A-B, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158",
+            "companyName": "Elite Furniture",
+            "phone": "+62617853162",
+            "image": "https://cdn.pixabay.com/photo/2017/08/02/01/01/living-room-2569325__340.jpg",
+            "price": 600000,
+            "lat": 3.549808397474249,
+            "long": 98.68897587032282
+        },
+        {
+            "name": "Plant Chair",
+            "description": "Jl. Brigjend Katamso No.658-660, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158",
+            "companyName": "Jaya Perabot",
+            "phone": "+6282276715505",
+            "image": "https://cdn.pixabay.com/photo/2018/10/09/14/58/chair-3735168__340.jpg",
+            "price": 150000,
+            "lat": 3.55167464299391,
+            "long": 98.68850246059968
+        },
+        {
+            "name": "Chair Living Room",
+            "description": "Jl. Brigjend Katamso No.753, Kp. Baru, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20158",
+            "companyName": "Sinar Agung Furniture",
+            "phone": "+628126017509",
+            "image": "https://cdn.pixabay.com/photo/2012/09/03/21/24/chair-55957__340.jpg",
+            "price": 150000,
+            "lat": 3.5503645571061972,
+            "long": 98.68902549131901
+        }
+    ]
+}
