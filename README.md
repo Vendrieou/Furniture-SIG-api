@@ -10,6 +10,8 @@
   - [Controllers](#controllers)
   - [Authentication](#authentication)
   - [Testing](#testing)
+  - [Complete Installation](#complete-installation) :point_left:
+  - [Pull Request](#pull-request) :point_left:
 
 ## Resources
 * [Slides](https://slides.com/scotups/api-design-in-node-with-express-v3/)
@@ -74,3 +76,46 @@ In this exercise you'll be locking down our API using JWT's.
 
 ### Testing
 THe other resources don't have any test, go ahead and write some!
+
+
+### Complete Installation
+
+* [Nodejs version v12.14.1](https://nodejs.org/en/)
+* [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
+* [Express](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+
+
+* install yarn `yarn install` or `yarn`
+
+* test routes `yarn test-routes`
+* test models `yarn test-models`
+* test controllers `yarn test-controllers`
+* test auth `yarn test-auth`
+
+* run app `yarn dev`
+
+* access `localhost:8080/api`
+check list api into ./src/server.js
+
+### Query Mongodb
+insert data POST `localhost:8080/api/list` with request.body in sigdata.json
+* [Download Postman](https://www.postman.com/)
+* in Headers: set `Authorization` in Key and `Bearer {token_login}` in Value
+* in Body: set Raw - JSON (dropdown list)
+```bash
+{
+    "name": "Magnum Chair",
+    "description": "",
+    "companyName": "",
+    "phone": "",
+    "image": "https://cdn.pixabay.com/photo/2017/06/29/07/32/chair-2453307__340.jpg",
+    "price": 125000,
+    "lat": 3.577272573114843,
+    "long": 98.70335978454648
+}
+```
+### Pull Request
+branch -> develop -> main
+
