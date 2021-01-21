@@ -8,16 +8,19 @@ const listSchema = new mongoose.Schema(
       trim: true,
       maxlength: 50
     },
+    companyName: {
+      type: String,
+      required: true,
+      trim: true,
+      default: '',
+      maxlength: 50
+    },
     description: String,
-    phone: String,
+    phone: Number,
     image: String,
     price: Number,
     lat: Number,
     long: Number,
-    category: {
-      type: mongoose.SchemaTypes.ObjectId,
-      ref: 'category',
-    },
     createdBy: {
       type: mongoose.SchemaTypes.ObjectId,
       ref: 'user',
