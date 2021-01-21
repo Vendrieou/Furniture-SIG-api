@@ -30,10 +30,11 @@ app.use('/api/list', listRouter)
 app.use('/api/category', categoryRouter)
 
 app.get('/api/images', async (req, res) => {
-  const { resources } = await cloudinary.search.expression('folder:dev_setups')
-  .sort_by('public_id', 'desc')
-  .max_results(12)
-  .execute();
+  const { resources } = await cloudinary.search
+    .expression('folder:dev_setups')
+    .sort_by('public_id', 'desc')
+    .max_results(12)
+    .execute()
   const publicIds = resources.map(file => file.public_id)
 
   res.send(publicIds)
@@ -41,16 +42,15 @@ app.get('/api/images', async (req, res) => {
 
 app.post('/api/upload', async (req, res) => {
   try {
-    const fileStr = req.body.data;
+    const fileStr = req.body.data
     const uploadedResponse = await cloudinary.uploader.upload(fileStr, {
       upload_preset: 'dev_setups'
-    });
+    })
 
     res.json({ msg: 'success', data: uploadedResponse })
-
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ err: 'Something went wrong'})
+    console.error(error)
+    res.status(500).json({ err: 'Something went wrong' })
   }
 })
 
